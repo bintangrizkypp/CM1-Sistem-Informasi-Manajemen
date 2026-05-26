@@ -1,0 +1,140 @@
+/* ===== GENERAL ===== */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #FCFCFD;
+  color: #2D2D2D;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* ===== TITLES ===== */
+
+h1 {
+  color: #6D28D9;
+  font-weight: 700;
+  border-bottom: 3px solid #FACC15;
+  padding-bottom: 8px;
+}
+
+h2 {
+  color: #7C3AED;
+  font-weight: 650;
+  margin-top: 40px;
+}
+
+h3, h4 {
+  color: #8B5CF6;
+  font-weight: 600;
+}
+
+/* ===== TOC ===== */
+
+#TOC {
+  background: #F5F3FF;
+  border-radius: 16px;
+  padding: 18px;
+  border-left: 5px solid #FACC15;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* TOC LINKS */
+
+#TOC a {
+  color: #6D28D9 !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#TOC a:hover {
+  color: #EAB308 !important;
+  transition: 0.2s;
+}
+
+#TOC .active > a {
+  color: #5B21B6 !important;
+  font-weight: bold;
+}
+
+/* ===== CODE CHUNK ===== */
+
+pre {
+  background: #F8F5FF !important;
+  border-radius: 14px;
+  padding: 14px;
+  border-left: 5px solid #C4B5FD;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* INLINE CODE */
+
+code {
+  color: #7C3AED;
+  background-color: #F3F0FF;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+/* ===== TABLE ===== */
+
+table {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+thead {
+  background-color: #7C3AED;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FAF7FF;
+}
+
+tbody tr:hover {
+  background-color: #FEF3C7;
+  transition: 0.2s;
+}
+
+/* ===== LINKS ===== */
+
+a {
+  color: #7C3AED;
+}
+
+a:hover {
+  color: #EAB308;
+}
+
+/* ===== BLOCKQUOTE ===== */
+
+blockquote {
+  border-left: 5px solid #FACC15;
+  background: #FFFBEA;
+  padding: 12px 16px;
+  border-radius: 10px;
+  color: #444;
+}
+
+/* ===== PLOT AREA ===== */
+
+img {
+  border-radius: 14px;
+}
+
+/* ===== SMOOTH SCROLL ===== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== HR LINE ===== */
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #7C3AED, #FACC15);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
